@@ -1,0 +1,113 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <Nullable>disable</Nullable>
+    <Platforms>x64</Platforms>
+    <DebugType>embedded</DebugType>
+    <Company>$(Authors)</Company>
+    <Authors>Baydock</Authors>
+    <AllowUnsafeBlocks>False</AllowUnsafeBlocks>
+    <Description>Adds the much requested Bloonchipper to BloonsTD6. Equipped with 3 5-tiered paths, a paragon upgrade, and full 3d models, Bloonchipper is here to chip some bloons.</Description>
+    <PackageIcon>000.png</PackageIcon>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/Baydock/Bloonchipper</RepositoryUrl>
+    <AssemblyVersion></AssemblyVersion>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <FileVersion></FileVersion>
+    <Version>0.1.0</Version>
+    <Title>Bloonchipper</Title>
+    <PackageProjectUrl>https://github.com/Baydock/Bloonchipper</PackageProjectUrl>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <EmbeddedResource Include="Icon.png" />
+    <EmbeddedResource Include="Resources\AssetBundles\bloonchipper" />
+    <EmbeddedResource Include="Resources\Instas\000.png" />
+    <EmbeddedResource Include="Resources\UnlockScreen\UnlockBackground.png" />
+    <EmbeddedResource Include="Resources\UnlockScreen\UnlockIcon.png" />
+    <EmbeddedResource Include="Resources\Portraits\000.png" />
+    <EmbeddedResource Include="Resources\Portraits\010.png" />
+    <EmbeddedResource Include="Resources\Portraits\020.png" />
+    <EmbeddedResource Include="Resources\Portraits\030.png" />
+    <EmbeddedResource Include="Resources\Portraits\100.png" />
+    <EmbeddedResource Include="Resources\Portraits\200.png" />
+    <EmbeddedResource Include="Resources\Portraits\300.png" />
+    <EmbeddedResource Include="Resources\Portraits\400.png" />
+    <EmbeddedResource Include="Resources\UpgradeIcons\010.png" />
+    <EmbeddedResource Include="Resources\UpgradeIcons\020.png" />
+    <EmbeddedResource Include="Resources\UpgradeIcons\030.png" />
+    <EmbeddedResource Include="Resources\UpgradeIcons\100.png" />
+    <EmbeddedResource Include="Resources\UpgradeIcons\200.png" />
+    <EmbeddedResource Include="Resources\UpgradeIcons\300.png" />
+    <EmbeddedResource Include="Resources\UpgradeIcons\400.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Reference Include="0Harmony">
+      <HintPath>..\..\..\..\..\Games\steamapps\steamapps\common\BloonsTD6\MelonLoader\net6\0Harmony.dll</HintPath>
+    </Reference>
+    <Reference Include="Assembly-CSharp">
+      <HintPath>..\..\..\..\..\Games\steamapps\steamapps\common\BloonsTD6\MelonLoader\Il2CppAssemblies\Assembly-CSharp.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppInterop.Runtime">
+      <HintPath>..\..\..\..\..\Games\steamapps\steamapps\common\BloonsTD6\MelonLoader\Dependencies\SupportModules\Il2CppInterop.Runtime.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2Cppmscorlib">
+      <HintPath>..\..\..\..\..\Games\steamapps\steamapps\common\BloonsTD6\MelonLoader\Il2CppAssemblies\Il2Cppmscorlib.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppNinjaKiwi.Common">
+      <HintPath>..\..\..\..\..\Games\steamapps\steamapps\common\BloonsTD6\MelonLoader\Il2CppAssemblies\Il2CppNinjaKiwi.Common.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppNinjaKiwi.LiNK">
+      <HintPath>..\..\..\..\..\Games\steamapps\steamapps\common\BloonsTD6\MelonLoader\Il2CppAssemblies\Il2CppNinjaKiwi.LiNK.dll</HintPath>
+    </Reference>
+    <Reference Include="Il2CppSystem.Core">
+      <HintPath>..\..\..\..\..\Games\steamapps\steamapps\common\BloonsTD6\MelonLoader\Il2CppAssemblies\Il2CppSystem.Core.dll</HintPath>
+    </Reference>
+    <Reference Include="MelonLoader">
+      <HintPath>..\..\..\..\..\Games\steamapps\steamapps\common\BloonsTD6\MelonLoader\net6\MelonLoader.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.ResourceManager">
+      <HintPath>..\..\..\..\..\Games\steamapps\steamapps\common\BloonsTD6\MelonLoader\Il2CppAssemblies\Unity.ResourceManager.dll</HintPath>
+    </Reference>
+    <Reference Include="Unity.TextMeshPro">
+      <HintPath>..\..\..\..\..\Games\steamapps\steamapps\common\BloonsTD6\MelonLoader\Il2CppAssemblies\Unity.TextMeshPro.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AnimationModule">
+      <HintPath>..\..\..\..\..\Games\steamapps\steamapps\common\BloonsTD6\MelonLoader\Il2CppAssemblies\UnityEngine.AnimationModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AssetBundleModule">
+      <HintPath>..\..\..\..\..\Games\steamapps\steamapps\common\BloonsTD6\MelonLoader\Il2CppAssemblies\UnityEngine.AssetBundleModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.AudioModule">
+      <HintPath>..\..\..\..\..\Games\steamapps\steamapps\common\BloonsTD6\MelonLoader\Il2CppAssemblies\UnityEngine.AudioModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.CoreModule">
+      <HintPath>..\..\..\..\..\Games\steamapps\steamapps\common\BloonsTD6\MelonLoader\Il2CppAssemblies\UnityEngine.CoreModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.ImageConversionModule">
+      <HintPath>..\..\..\..\..\Games\steamapps\steamapps\common\BloonsTD6\MelonLoader\Il2CppAssemblies\UnityEngine.ImageConversionModule.dll</HintPath>
+    </Reference>
+    <Reference Include="UnityEngine.UI">
+      <HintPath>..\..\..\..\..\Games\steamapps\steamapps\common\BloonsTD6\MelonLoader\Il2CppAssemblies\UnityEngine.UI.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="Resources\AbilityIcons\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="Resources\Portraits\000.png">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
+
+  <Target Name="PostBuild" AfterTargets="PostBuildEvent">
+    <Exec Command="copy &quot;$(TargetPath)&quot; &quot;D:\Games\steamapps\steamapps\common\BloonsTD6\Mods&quot;" />
+  </Target>
+
+</Project>
