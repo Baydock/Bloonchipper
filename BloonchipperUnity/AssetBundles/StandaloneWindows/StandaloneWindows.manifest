@@ -1,0 +1,7 @@
+ManifestFileVersion: 0
+CRC: 4137351232
+AssetBundleManifest:
+  AssetBundleInfos:
+    Info_0:
+      Name: bloonchipper
+      Dependencies: {}
